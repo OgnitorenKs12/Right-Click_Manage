@@ -7,7 +7,7 @@ All rights of the work belong to Hüseyin UZUNYAYLA. It is forbidden to develop,
 
 # Sağ-Tık_Yönet │ Right-Click_Manage  
 
-<details><B><summary> ► TÜRKÇE</B></summary>
+<details><B><summary> TÜRKÇE</B></summary>
 Windows 10/11 işletim sistemlerinde masaüstü sağ-tık menüsüne "Yönet" bölümünü ekler. Bu bölümde yer alanlar;
 
 ![Repo1](https://raw.githubusercontent.com/OgnitorenKs12/Right-Click_Manage/main/.github/TR.png)
@@ -23,7 +23,7 @@ Windows 10/11 işletim sistemlerinde masaüstü sağ-tık menüsüne "Yönet" b�
 -  9- Temp Temizle: %Temp% konumlarını temizler
 - 10- Simge Önbelliğini Temizle: Simge önbelleğini tutan dizinleri temizler. Olası simge hatalarını giderir.
 
-</details><details><B><summary> ► ENGLİSH</B></summary>
+</details><details><B><summary> ENGLİSH</B></summary>
 Adds the “Manage” section to the desktop right-click menu in Windows 10/11 operating systems. This section includes;
 
 ![Repo2](https://raw.githubusercontent.com/OgnitorenKs12/Right-Click_Manage/main/.github/EN.png)
