@@ -8,9 +8,9 @@ All rights of the work belong to Hüseyin UZUNYAYLA. It is forbidden to develop,
 # Sağ-Tık_Yönet │ Right-Click_Manage  
 
 <details><B><summary> TÜRKÇE</B></summary>
-Windows 10/11 işletim sistemlerinde masaüstü sağ-tık menüsüne "Yönet" bölümünü ekler. Bu bölümde yer alanlar;
+- Windows 10/11 işletim sistemlerinde masaüstü sağ-tık menüsüne "Yönet" bölümünü ekler. Bu bölümde yer alanlar;
 
-Sağ-tık_Yönet bölümünün çalışması için dosyaların silinmemesi gerekmektedir. Bu yüzden fazla kurcalamayacağınız bir konuma atın. Tavsiyem C diski içerisine atmanızdır.
+- Sağ-tık_Yönet bölümünün çalışması için dosyaların silinmemesi gerekmektedir. Bu yüzden fazla kurcalamayacağınız bir konuma atın. Tavsiyem C diski içerisine atmanızdır.
 
 ![Repo1](https://raw.githubusercontent.com/OgnitorenKs12/Right-Click_Manage/main/.github/TR.png)
 
@@ -26,9 +26,9 @@ Sağ-tık_Yönet bölümünün çalışması için dosyaların silinmemesi gerek
 - 10- Simge Önbelliğini Temizle: Simge önbelleğini tutan dizinleri temizler. Olası simge hatalarını giderir.
 
 </details><details><B><summary> ENGLİSH</B></summary>
-Adds the “Manage” section to the desktop right-click menu in Windows 10/11 operating systems. This section includes;
+- Adds the “Manage” section to the desktop right-click menu in Windows 10/11 operating systems. This section includes;
 
-If it is installed in a location other than disk C, it runs in the directory where it is located.
+- If it is installed in a location other than disk C, it runs in the directory where it is located.
 
 ![Repo2](https://raw.githubusercontent.com/OgnitorenKs12/Right-Click_Manage/main/.github/EN.png)
 
