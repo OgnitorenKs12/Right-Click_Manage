@@ -19,7 +19,7 @@ REM -------------------------------------------------------------
 REM Sistem dil kontrolü
 set Dil=EN
 FOR /F "tokens=6" %%a in ('Dism /Online /Get-intl ^| Find /I "Default system UI language"') do (
-	if "%%a" EQU "tr-TR" (set Dil=TR)
+    if "%%a" EQU "tr-TR" (set Dil=TR)
 )
 REM -------------------------------------------------------------
 REM Klasör yolunda Türkçe karakter kontrolü yapar
@@ -37,16 +37,16 @@ title Sağ-Tık Yönet │ Right-Click Manage │ OgnitorenKs
 echo.
 Call :Dil A 2 Language_Menu_!Dil!_1_&echo %R%[36m  ▼ !LA2! ▼%R%[0m
 FOR %%a in (Icon MUIVerb Position SubCommands) do (Call :Sorgula %%a)
-	if "!Setup!" EQU "0" (Call :Dil A 2 Language_!Dil!_5_&set Text=%R%[92m!LA2!%R%[0m)
-	if "!Setup!" EQU "1" (Call :Dil A 2 Language_!Dil!_6_&set Text=%R%[90m!LA2!%R%[0m)
+    if "!Setup!" EQU "0" (Call :Dil A 2 Language_!Dil!_5_&set Text=%R%[92m!LA2!%R%[0m)
+    if "!Setup!" EQU "1" (Call :Dil A 2 Language_!Dil!_6_&set Text=%R%[90m!LA2!%R%[0m)
 Call :Dil A 2 Language_!Dil!_4_&echo %R%[90m  • !LA2!= !Text!
 Call :Dil A 2 Language_Menu_!Dil!_2_&echo  %R%[32m 1%R%[90m-%R%[33m !LA2!%R%[0m
 Call :Dil A 2 Language_Menu_!Dil!_3_&echo  %R%[32m 2%R%[90m-%R%[33m !LA2!%R%[0m
 Call :Dil A 2 Language_Menu_!Dil!_4_&set /p Value=%R%[32m  ► !LA2!%R%[90m= %R%[0m
-	if "!Value!" EQU "1" (Call :Setup)
-	if "!Value!" EQU "2" (Call :Dil A 2 Language_!Dil!_3_&echo.&echo %R%[32m► !LA2!%R%[0m
-						  Reg delete "HKLM\SOFTWARE\Classes\Directory\background\shell\Yonet" /f > NUL 2>&1
-						  Call :Dil A 2 Language_!Dil!_2_&echo %R%[32m► !LA2!%R%[0m&timeout /t 2 /nobreak > NUL
+    if "!Value!" EQU "1" (Call :Setup)
+    if "!Value!" EQU "2" (Call :Dil A 2 Language_!Dil!_3_&echo.&echo %R%[32m► !LA2!%R%[0m
+                          Reg delete "HKLM\SOFTWARE\Classes\Directory\background\shell\Yonet" /f > NUL 2>&1
+                          Call :Dil A 2 Language_!Dil!_2_&echo %R%[32m► !LA2!%R%[0m&timeout /t 2 /nobreak > NUL
                          )
 goto Menu
 REM -------------------------------------------------------------
@@ -121,7 +121,7 @@ goto :eof
 REM -------------------------------------------------------------
 :Sorgula
 reg query "HKLM\SOFTWARE\Classes\Directory\background\shell\Yonet" /v "%~1" > NUL 2>&1
-	if !errorlevel! NEQ 0 (set Setup=1)
+    if !errorlevel! NEQ 0 (set Setup=1)
 goto :eof
 REM -------------------------------------------------------------
 :Dil
